@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); /* подключение шрифтa */
+@import 'reset.css';  /* - файл, в котором сбрасывается большинство возможных добавок браузеров */
+@import 'base.css'; /* файл, в который помещают стили общих, повторяющихся часто классов и т.п. */
+@import 'header.css'; /* cтиль шапки */
+@import 'section_1.css';  /* cтиль cекции №1 */
+@import 'section_2.css'; /* cтиль cекции №2 */
+@import 'section_3.css'; /* cтиль cекции №3 */
+@import 'section_4.css'; /* cтиль cекции №4 */
+@import 'section_5.css'; /* cтиль cекции №5 */
+@import 'footer.css'; /* cтиль подвала */
+
+
+
+
+

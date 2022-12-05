@@ -1,0 +1,103 @@
+/* стили фона */
+
+.team {
+    background: url(../images/section1.png) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    padding-top: 29px;
+    padding-bottom: 23px;
+}
+
+/* стили текста */
+
+.team h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #FEA800;
+    text-shadow: 11px 11px 12px rgba(0, 0, 0, 0.3);
+}
+
+.team .container>h3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FEA800;
+    text-shadow: 9px 10px 12px rgba(0, 0, 0, 0.35);
+    margin-bottom: 30px;
+}
+
+/* стили контейнера с персоналом */
+
+.staff {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.staff > div {
+    padding: 0 10px;
+    flex: 25%;
+}
+
+/* стили карточек с персоналом, текст*/
+
+.staff h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FEA800;
+    margin-bottom: 9px;
+}
+
+.staff p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* стиль фотокарточки */
+
+.staff > div > div {
+    background-position: center center;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-bottom: 14px;
+}
+
+.staff div:nth-child(1)>div {
+    background: url(../images/Kupitman.png) no-repeat;
+}
+
+.staff div:nth-child(2)>div {
+    background: url(../images/kashper\ 1.png) no-repeat;
+}
+
+.staff div:nth-child(3)>div {
+    background: url(../images/lory\ 1.png) no-repeat;
+}
+
+.staff div:nth-child(4)>div {
+    background: url(../images/Malysheva\ 1.png) no-repeat;
+}
+
+@media (max-width: 720px) {
+    .staff > div {
+        flex: 50%;
+        padding: 0 5%;
+        margin-bottom: 50px;
+    }
+}

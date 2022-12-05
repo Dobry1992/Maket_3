@@ -1,0 +1,34 @@
+footer {
+    background: #7F7161;
+    width: 100%;
+    padding: 42px 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 11px;
+    letter-spacing: -0.025em;
+    color: #FEA800;
+    display: block;
+    margin-right: 6px;
+}
+
+footer p:nth-child(1) {
+    color: #FFFFFF;
+}
+
+footer .container div {
+    height: 6px;
+    border: 1px solid #FFFFFF;
+    width: 0;
+    margin-right: 6px;
+}

@@ -1,0 +1,64 @@
+/* Стиль фоновой картинки */
+
+.banner {
+    background: url(../images/banner.png) no-repeat;
+    padding-top: 216px;
+    padding-bottom: 217px;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+}
+
+/* Стили текста */
+
+.banner h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: #FEA800;
+    display: inline-block;
+    padding: 3px 7px;
+}
+
+.banner h2 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FEA800;
+}
+
+.banner h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0.007em;
+    color: #FEA800;
+    margin-top: -15px;
+    margin-bottom: 25px;
+}
+
+/* Стили кнопки */
+
+.banner button {
+    background: #FEA800;
+    height: 36px;
+    width: 103px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 0;
+    transition: .5s;
+}
+
+.banner button:hover {
+    background: #ff7300;
+    transition: .5s;
+}
+

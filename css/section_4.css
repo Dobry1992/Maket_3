@@ -1,0 +1,121 @@
+/* стиль фона секции */
+
+.contact {
+    background: url(../images/background.png) no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 47px;
+    padding-bottom: 47px;
+}
+
+/* позиционирования контейнеров секции */
+
+.contact .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+/* Стиль карты */
+
+.contact .container div:nth-child(1) {
+    flex: 290px;
+    text-align: center;
+    margin-right: 20%;
+}
+
+.contact .container div:nth-child(2) {
+    flex: 516px;
+}
+
+iframe {
+    width: 100%;
+    height: 200px;
+}
+
+/* Стиль контактов */
+
+.line {
+    width: 100%;
+    border: 1px solid white;
+    margin-bottom: 9px;
+}
+
+.contact p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: -0.035em;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+
+.contact .container div p:nth-child(4):before {
+    content: url(../images/Expanded.svg);
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+.contact .container div p:nth-child(6):before {
+    content: url(../images/tel.svg);
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+.contact .container div p:nth-child(8):before {
+    content: url(../images/post.svg);
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+.contact h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FEA800;
+}
+
+.contact h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FEA800;
+    margin-top: -5px;
+    margin-bottom: 33px;
+}
+
+@media (max-width: 1040px) {
+    .contact .container div:nth-child(1) {
+        margin-right: 10%;
+    }
+}
+
+@media (max-width: 930px) {
+    .contact .container div:nth-child(1) {
+        margin-right: 0;
+    }
+
+    .contact .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact .container div:nth-child(1){
+        flex: none;
+        width: 70%;
+        margin-bottom: 40px;
+    }
+
+    .contact .container div:nth-child(2) {
+        flex: none;
+        width: 100%;
+    }
+
+    
+}
